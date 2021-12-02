@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azul_d"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dailystories001.Daily_atividades" >
+
+    <ImageButton
+        android:id="@+id/btnLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMalha"
+        android:layout_alignTop="@+id/btnControle"
+        android:background="@null"
+        android:src="@drawable/livro_maca" />
+
+    <ImageButton
+        android:id="@+id/btnMalha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMalhar"
+        android:layout_alignTop="@+id/btnDanca"
+        android:background="@null"
+        android:src="@drawable/tv" />
+
+    <ImageButton
+        android:id="@+id/btnMalhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnbola"
+        android:layout_marginRight="31dp"
+        android:background="@null"
+        android:src="@drawable/exercicio" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnbola"
+        android:layout_alignParentTop="true"
+        android:text="@string/Feito"
+        android:textColor="#ffff4d"
+        android:textSize="@dimen/vint"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnControle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnDanca"
+        android:layout_below="@+id/btnDanca"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:src="@drawable/videogame" />
+
+    <ImageButton
+        android:id="@+id/btnbola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnDanca"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:background="@null"
+        android:src="@drawable/musica" />
+
+    <ImageButton
+        android:id="@+id/btnDanca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnbola"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="37dp"
+        android:background="@null"
+        android:src="@drawable/encontro" />
+
+</RelativeLayout>

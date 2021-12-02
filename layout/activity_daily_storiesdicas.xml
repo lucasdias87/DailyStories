@@ -1,0 +1,84 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azul_d"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/ma"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dailystories001.DailyStoriesdicas" >
+
+    <Button
+        android:id="@+id/Btnvoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Voltar"
+        android:textColor="#ffff4d"
+        android:textSize="@dimen/vint"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/TableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ComeceAMeditar"
+                android:textColor="#ffff4d"
+                android:textSize="@dimen/vint"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/Btnmeditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:scaleType="center"
+                android:src="@drawable/meditacao" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/AlgumasFrutas"
+                android:textColor="#ffff4d"
+                android:textSize="@dimen/vint"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnFruta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/comida" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DicasAtividades"
+                android:textColor="#ffff4d"
+                android:textSize="@dimen/vint"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnAtividades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/correr" />
+        </TableLayout>
+    </ScrollView>
+
+</TableLayout>
