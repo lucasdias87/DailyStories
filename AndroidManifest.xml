@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dailystories001"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_df2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Daily"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DailyHome"
+            android:label="@string/title_activity_daily_home" >
+        </activity>
+        <activity
+            android:name=".DailyDiario"
+            android:label="@string/title_activity_daily_diario" >
+        </activity>
+        <activity
+            android:name=".activity_ajuda_dailyStories"
+            android:label="@string/title_activity_ajuda_daily_stores" >
+        </activity>
+        <activity
+            android:name=".Ajuda_dailyStories"
+            android:label="@string/title_activity_ajuda_daily_stories" >
+        </activity>
+        <activity
+            android:name=".Daily_atividades"
+            android:label="@string/title_activity_daily_atividades" >
+        </activity>
+        <activity
+            android:name=".DailyStoriesdicas"
+            android:label="@string/title_activity_daily_storiesdicas" >
+        </activity>
+        <activity
+            android:name=".DailyQuemSomos"
+            android:label="@string/title_activity_daily_quem_somos" >
+        </activity>
+        <activity
+            android:name=".DailyEstatisticas"
+            android:label="@string/title_activity_daily_estatisticas" >
+        </activity>
+        <activity
+            android:name=".DailyStories_Medita"
+            android:label="@string/title_activity_daily_stories__medita" >
+        </activity>
+        <activity
+            android:name=".Daily_alimenta"
+            android:label="@string/title_activity_daily_alimenta" >
+        </activity>
+        <activity
+            android:name=".DailyAlimentacao"
+            android:label="@string/title_activity_daily_alimentacao" >
+        </activity>
+        <activity
+            android:name=".DailyDicasAtividades"
+            android:label="@string/title_activity_daily_dicas_atividades" >
+        </activity>
+        <activity
+            android:name=".DailyStoriesEstatisticasHumor"
+            android:label="@string/title_activity_daily_stories_estatisticas_humor" >
+        </activity>
+
+        <!-- OneSignal -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@+integer/google_play_services_version" />
+        <meta-data
+            android:name="onesignal_app_id"
+            android:value="714856e7-ca4d-4753-b0d5-5aec6c21a523" />
+        <meta-data
+            android:name="onesignal_google_project_number"
+            android:value="str:824150478832" />
+
+        <activity
+            android:name=".TesteEstatisticas"
+            android:label="@string/title_activity_teste_estatisticas" >
+        </activity>
+        <activity
+            android:name=".DailyStoriesGraficoAtividade"
+            android:label="@string/title_activity_daily_stories_grafico_atividade" >
+        </activity>
+    </application>
+
+</manifest>

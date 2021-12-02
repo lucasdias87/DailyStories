@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "824150478832",
+    "firebase_url": "https://dailystories-d7fd2.firebaseio.com",
+    "project_id": "dailystories-d7fd2",
+    "storage_bucket": "dailystories-d7fd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824150478832:android:f2443fc77d2f9a98",
+        "android_client_info": {
+          "package_name": "com.example.dailystories001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824150478832-5fo2lq4qsb6erosm476o5nnk6u020uvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhzkSxJBmgIO4cImUCbAvjd3b63jxeaTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824150478832-5fo2lq4qsb6erosm476o5nnk6u020uvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
